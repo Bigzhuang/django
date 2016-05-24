@@ -1,0 +1,13 @@
+﻿公众号
+开发者ID
+AppID(应用ID)
+wx31b6a79b6dbc8449
+AppSecret(应用密钥)
+499df76b2107c129ad4fbe73c47ad354
+
+
+企业号
+CorpID 
+wx7f45564ffab82f2d
+Secret 
+CLvAoK78XZuqtT9z-lOQ9LE28Yfgpjymoyly1UtBtgZSKZhAO_yhEwQ9-EbaboH_ 

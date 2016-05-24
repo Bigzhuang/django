@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1 ,charset=utf-8">
+<title>提交预览</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!--style type="text/css"--!>
+<table td,th {border:solid 1px #000;}
+table{margin:0 auto}>
+<!--/style--!>
+</head>
+<body>
+<table class="table table-bordered">
+
+<form action="/case_submit/" method="post" >
+
+        <tr class="info">
+                <th><label>项目名称:    {{name}}</label></th>
+        </tr>
+
+        <tr class="info">
+                <th>用户名称:    {{customer}}</th>
+        </tr>
+
+
+        <tr class="info">
+                <th >申请时间:    {{time}}</th>
+        </tr>
+
+        <tr class="info">
+                <th >申请原因:  {{reason}}  </th>
+        </tr>
+
+        <tr>
+                <td><button type="submit" class="btn btn-info">提交</button></td>
+        </tr>
+</form>
+</body>
+</html>

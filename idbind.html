@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1 ">
+<title>身份绑定</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!--style type="text/css"--!>
+<table td,th {border:solid 1px #000;}
+table{margin:0 auto}>
+<!--/style--!>
+</head>
+<body>
+<h2>{{change_message}}</h2>
+<table class="table table-bordered">
+
+<form action="/idbind_process/" method="post" >
+
+
+        <tr class="info">
+                <th><label>姓名:</label></th>
+                <td><input type="text" placeholder="例如张明" name="name" class="form-control" id="inputSuccess1"></td>
+        </tr>
+
+        <tr class="info">
+                <th>域账号:</th>
+                <td><input type="text" placeholder="例如zhangming@rayking.com.cn" name='domain_id' class="form-control"></td>
+        </tr>
+
+
+        <tr class="info">
+                <th >密码 </th>
+                <td><input type="password" name='password' class="form-control"></td>
+        </tr>
+        <tr>
+                <td><button type="submit" class="btn btn-info">提交</button></td>
+                <th><p color="red">{{error}}{{error_username}}{{bind_success}}{{binded}}{{rebinded}}</p></th>
+        </tr>
+</form>
+</body>
+</html>
